@@ -1,0 +1,9 @@
+
+    <form>
+        <label for="artifact">Artifact:</label>
+        <input type="text" id="artifact" name="artifact" [(ngModel)]="artifact"/>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{{artifact}}" />
+        <label for="name">Package:</label>
+        <input type="text"  id="package" name="package" value="com.example.{{artifact}}" />
+    </form>
